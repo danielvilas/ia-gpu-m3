@@ -8,5 +8,6 @@ source .venv/bin/activate
 python -m pip install -U pip
 pip install tensorflow
 #pip install tensorflow-metal
+#python3 -m pip install 'tensorflow[and-cuda]'
 #pip install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
 ```

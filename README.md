@@ -18,3 +18,10 @@ python -m pip install tensorflow-metal
 pip install --pre torch torchvision torchaudio \
  --extra-index-url https://download.pytorch.org/whl/nightly/cpu
 ```
+
+## Ubunut
+```
+sudo apt install nvidia-cudnn nvidia-cuda-toolkit nvidia-cuda-dev 
+python3 -m pip install 'tensorflow[and-cuda]'
+```
+
